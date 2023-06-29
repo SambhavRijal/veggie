@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, createStyles, Text, Title} from '@mantine/core';
+import { Button, createStyles, Text} from '@mantine/core';
 
 
 

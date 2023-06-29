@@ -2,8 +2,6 @@
 
 import { Button, createStyles, Text, Title} from '@mantine/core';
 
-
-
 const useStyles = createStyles((theme) => ({
   wrapper: {
     color:'white',
@@ -32,7 +30,7 @@ const useStyles = createStyles((theme) => ({
 
   body: {
     paddingRight: `calc(${theme.spacing.xl} * 4)`,
-
+    
     [theme.fn.smallerThan('sm')]: {
       paddingRight: 0,
       marginTop: theme.spacing.xl,

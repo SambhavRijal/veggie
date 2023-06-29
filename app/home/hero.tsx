@@ -1,7 +1,6 @@
 "use client";
 
 import { createStyles, Overlay, Container, Title, Button, Text, rem } from '@mantine/core';
-import herobg from'/img/herobg.png' ;
 
 const useStyles = createStyles((theme) => ({
   hero: {

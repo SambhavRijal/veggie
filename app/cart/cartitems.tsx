@@ -1,7 +1,7 @@
 "use client";
 
-import { useDispatch, useSelector } from "react-redux";
-import { ActionIcon, Avatar, Group, ScrollArea, Table, Text, createStyles, useMantineTheme } from "@mantine/core";
+import { useDispatch} from "react-redux";
+import { ActionIcon, Avatar, Group, ScrollArea, Table, Text, createStyles } from "@mantine/core";
 import { IconMinus, IconPlus, IconTrash } from "@tabler/icons-react";
 import { useAppSelector } from "@/redux/hooks";
 import { decrementQuantity, incrementQuantity, removeFromCart, selectItems } from "@/redux/cart.slice";

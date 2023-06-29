@@ -1,13 +1,11 @@
 "use client";
 
 import { Carousel } from '@mantine/carousel';
-import { Card, Image, Badge, Group } from '@mantine/core';
-import { useMediaQuery } from '@mantine/hooks';
-import { createStyles, Paper, Text, Title, Button, useMantineTheme, rem } from '@mantine/core';
+import { Card, Image, Group } from '@mantine/core';
+import { createStyles, Text, Button, rem } from '@mantine/core';
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
-
 import * as menu from '../../public/menu.json';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addToCart,selectItems } from '@/redux/cart.slice';
 import { useAppSelector } from '@/redux/hooks';
 
@@ -57,7 +55,6 @@ interface CartItem {
   name: string;
   price: number;
   quantity: number;
-  // Add other properties as needed
 }
 
 export function CardsCarousel() {
