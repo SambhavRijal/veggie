@@ -1,0 +1,92 @@
+{
+
+    "fruit":[
+            {
+                "id":1,
+                "image":"/img/menu/mango.jpg",
+                "name":"Mango",
+                "price": 200
+            },
+            {
+              "id":2,
+              "image":"/img/menu/strawberry.jpg",
+              "name":"Strawberry",
+              "price": 130
+              
+            },
+            {
+              "id":3,
+              "image":"/img/menu/banana.jpg",
+              "name":"Banana",
+              "price": 90
+              
+            },
+            {
+              "id":4,
+              "image":"/img/menu/apple.jpg",
+              "name":"Apple",
+              "price": 230
+              
+            },
+            {
+              "id":5,
+              "image":"/img/menu/orange.jpg",
+              "name":"Orange",
+              "price": 160
+              
+            },
+            {
+              "id":6,
+              "image":"/img/menu/watermelon.jpg",
+              "name":"Watermelon",
+              "price": 300
+              
+            }
+        ],
+
+        "vegetable":[
+                {
+                  "id":7,
+                  "image":"/img/herobg.png",
+                  "name":"Pumpkin",
+                  "price": 20
+                
+                },
+                {
+                  "id":8,
+                  "image":"/img/herobg.png",
+                  "name":"Eggplant",
+                  "price": 20
+                  
+                },
+                {
+                  "id":9,
+                  "image":"/img/herobg.png",
+                  "name":"Tomato",
+                  "price": 20
+                  
+                },
+                {
+                  "id":10,
+                  "image":"/img/herobg.png",
+                  "name":"Potato",
+                  "price": 20
+                  
+                },
+                {
+                  "id":11,
+                  "image":"/img/herobg.png",
+                  "name":"Spinach",
+                  "price": 20
+                  
+                },
+                {
+                  "id":12,
+                  "image":"/img/herobg.png",
+                  "name":"Onion",
+                  "price": 20
+                  
+                }
+            ]
+    
+          }
